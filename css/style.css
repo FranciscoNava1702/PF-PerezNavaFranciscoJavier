@@ -37,6 +37,8 @@
     
 }
 
+
+
 .card-hero-content a {
     color: #00CEE0;
     background-color: #fff;
@@ -208,6 +210,8 @@ footer {
     border-radius: 50%;
 }
 
+
+
 @media(max-width:1024px){
     .card-hero{
         grid-template-columns: repeat(2, 1fr);
@@ -222,8 +226,143 @@ footer {
     .card-hero-content{
         width: 100%;
     }
+    .card-hero2 {
+        grid-template-columns: 1fr;
+        
+    }
 }
 
 
+/* Estilos para el main con CSS Grid */
 
+
+
+.categorias-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.card-hero2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    
+}
+
+.card-hero2:hover {
+    box-shadow: 5px 5px 30px 10px #00CEE0;
+    padding: 30px;
+    
+    margin: 20px;
+}
+
+.card-hero-content2 {
+    padding: 20px;
+}
+
+.card-hero-content2 p {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.card-header2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container2 { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.destinos-container2 { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-gap: 1rem; 
+}
+
+.destinos {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.destinos img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+    height: auto;
+    border-radius: 8px; /* Opcional: agrega bordes redondeados a las imágenes */
+}
+
+@media (max-width: 768px) { 
+    .destinos-container2 { 
+        grid-template-columns: 1fr; 
+    } 
+}
+  
+.intro-section{
+    display: flex;
+    
+    margin:50px;
+}
+
+.intro-section p{
+    font-size: 25px;
+    padding: 30px;
+    text-align: justify;
+    color: black;
+    background-color: white;
+    border: 4px solid #00BBCC;
+    border-radius: 60px;
+    width: 50%;
+    height: 50;
+    
+}
+
+.intro-section img{
+
+    width: 50%;
+    padding: 30px;
+    border-radius: 70px;
+}
+
+.nosotros-section{
+    border: 3px solid #00BBCC;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+.nosotros-section h2{
+    font-size: 35px;
+    margin: 10px;
+}
+
+.nosotros-section p{
+    font-size: 20px;
+}
+
+.mision-section{
+    border: 3px solid #00BBCC;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+.mision-section h2{
+    font-size: 35px;
+    margin: 10px;
+}
+
+.mision-section p{
+    font-size: 20px;
+}
+  
+  
   
