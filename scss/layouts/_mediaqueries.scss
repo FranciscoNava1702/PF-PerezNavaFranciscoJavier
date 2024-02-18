@@ -1,0 +1,65 @@
+@media(max-width:1024px){
+    .hero_container_card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:760px){
+    .hero_container_card{
+        grid-template-columns: 1fr;
+    }
+
+    .hero_container_card_cont{
+        width: 100%;
+    }
+    .hero2_categorias_card {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .hero3_destinos { 
+        grid-template-columns: 1fr; 
+    } 
+
+}
+
+@media(min-width: 760px){
+    .content{
+        gap:15px;
+        padding: 20px;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+
+    .contact-infom iframe{
+        width: 70%;
+    }
+
+    .hero4{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'intro '
+        'intro' 
+        'nosotros' 
+        'nosotros'
+        'mision'   
+        'mision';
+    }
+
+}
+
+@media(max-width: 400px){
+    .hero2_categorias_card_content p{
+        font-size: 15px;
+    }
+}

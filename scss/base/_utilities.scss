@@ -1,0 +1,16 @@
+
+
+h1{
+    color:transparent;
+    font-size: 5rem;
+    background: linear-gradient(123deg,#0038e0 ,#00e0be 30%);
+    background-clip: text;
+}
+
+@mixin border-styles {
+    border: 3px solid $primary-color;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: justify;
+}
