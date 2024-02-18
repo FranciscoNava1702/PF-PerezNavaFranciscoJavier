@@ -270,8 +270,8 @@ footer {
   grid-template-areas: "intro    intro" "nosotros nosotros" "mision   mision";
 }
 .hero4_intro {
-  height: 600px;
-  background: linear-gradient(45deg, rgba(18, 18, 18, 0.1529411765), rgba(240, 240, 240, 0.1333333333)), url("../../assets/nosotros/intro.jpg");
+  height: 100%;
+  background: url("../../assets/nosotros/intro.jpg");
   background-size: cover;
   background-position: center;
   grid-area: intro;
@@ -284,6 +284,7 @@ footer {
   text-align: justify;
   color: black;
   width: 100%;
+  height: 100%;
 }
 .hero4_intro span {
   color: white;
