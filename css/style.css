@@ -271,7 +271,8 @@ footer {
 }
 .hero4_intro {
   height: 100%;
-  background: linear-gradient(45deg, rgba(18, 18, 18, 0.3529411765), rgba(240, 240, 240, 0.1333333333)), url("../../assets/nosotros/intro.jpg");
+  background: linear-gradient(45deg, rgba(18, 18, 18, 0.3529411765), rgba(240, 240, 240, 0.1333333333));
+  background-image: url("../../assets/nosotros/intro.jpg");
   background-size: cover;
   background-position: center;
   grid-area: intro;
