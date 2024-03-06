@@ -23,7 +23,7 @@
             form {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                p {
+                .datos {
                     margin: 0;
                     padding: 1em;
                 }
@@ -39,7 +39,7 @@
                     border: none;
                     background: none;
                     outline: 0;
-                    color: #fff;
+                    color: black;
                     border-bottom: 1px solid $primary-color;
                 }
                 button {

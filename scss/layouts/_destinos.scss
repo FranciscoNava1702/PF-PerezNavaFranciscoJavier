@@ -1,21 +1,32 @@
+.hero3 {
+    border: 10px auto;
+    padding: 30px;
+    &_destinos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
 
+        &_lugar {
+            display: grid;
+            background-color: $secondary-color;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
 
-.hero3_destinos{
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-    grid-gap: 1rem; 
-    
-    &_lugar{
-        background-color: $secondary-color;
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
+            &:hover {
+                transition: 0.5s;
+                box-shadow: 5px 5px 30px 10px $primary-color;
 
-        img{
-            max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
-            height: auto;
-            border-radius: 8px; /* Opcional: agrega bordes redondeados a las imágenes */
-        
+            }
+
+            img {
+                max-width: 100%;
+                /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+
+                border-radius: 8px;
+                /* Opcional: agrega bordes redondeados a las imágenes */
+                display: block;
+            }
         }
     }
 }

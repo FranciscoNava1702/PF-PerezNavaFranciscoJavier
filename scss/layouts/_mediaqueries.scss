@@ -62,4 +62,17 @@
     .hero2_categorias_card_content p{
         font-size: 15px;
     }
+    
+    
+}
+
+@media(min-width: 320px){
+    .hero4_intro {
+        p {
+            font-size: 10px;
+        }
+        span {
+            font-size: 2rem;
+        }
+    }
 }

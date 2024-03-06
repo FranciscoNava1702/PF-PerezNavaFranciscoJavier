@@ -13,57 +13,59 @@
   <link rel="stylesheet" href="css/style.css">
 
   <title>InfiteFlight. Los mejores viajes</title>
-  <meta name="description" content="Explora destinos increíbles alrededor del mundo con InfiniteFlight. Descubre aventuras, culturas y paisajes inolvidables. ¡Tu próximo viaje comienza aquí!">
+  <meta name="description"
+    content="Explora destinos increíbles alrededor del mundo con InfiniteFlight. Descubre aventuras, culturas y paisajes inolvidables. ¡Tu próximo viaje comienza aquí!">
   <meta name="keywords" content="viajes, aventuras, destinos, experiencias, InfiniteFlight, cultura, paisajes">
 
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-blue sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">InfiniteFlight <i class="bi bi-airplane-fill"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">InfiniteFlight</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Viajes
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="./pages/categorias.html">Categorias</a></li>
+                  <li><a class="dropdown-item" href="./pages/destinos.html">Principales Destinos</a></li>
 
-  <nav class="navbar navbar-expand-md bg-blue sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">InfiniteFlight <i class="bi bi-airplane-fill"></i></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">InfiniteFlight</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Viajes
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="./pages/categorias.html">Categorias</a></li>
-                <li><a class="dropdown-item" href="./pages/destinos.html">Principales Destinos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Conocenos
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="./pages/contact.html">Contactanos</a></li>
+                  <li><a class="dropdown-item" href="./pages/nosotros.html">Sobre Nosotros</a></li>
 
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Conocenos
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="./pages/sesion.html">Iniciar Sesion</a></li>
-                <li><a class="dropdown-item" href="./pages/nosotros.html">Sobre Nosotros</a></li>
-
-              </ul>
-            </li>
-          </ul>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <main class="hero">
     <h1>InfiniteFlight</h1>
@@ -71,11 +73,13 @@
       <article class="hero_container_card">
         <div class="hero_container_card_cont">
           <h2>Viajes Sorprendentes</h2>
-          <p>Descubre el encanto de explorar el mundo a través de nuestras experiencias. En cada rincón, una nueva aventura; en cada viaje, una oportunidad para sumergirse en culturas fascinantes, paisajes asombrosos y momentos inolvidables.</p>
+          <p>Descubre el encanto de explorar el mundo a través de nuestras experiencias. En cada rincón, una nueva
+            aventura; en cada viaje, una oportunidad para sumergirse en culturas fascinantes, paisajes asombrosos y
+            momentos inolvidables.</p>
           <a href="./pages/nosotros.html">Mas Información</a>
         </div>
         <div class="hero_container_card_header">
-          <img src="assets/index/mundo.jpg" alt="">
+          <img src="assets/index/mundo.jpg" alt="Opciones de viajes por el mundo">
         </div>
       </article>
     </section>
@@ -83,43 +87,46 @@
     <section class="hero_cat">
       <h2>Categorias</h2>
       <div class="hero_cat_img">
-        <img src="./assets/index/playa.jpg" alt="">
-        <img src="./assets/index/acuatico.jpg" alt="">
-        <img src="./assets/index/montaña.jpg" alt="">
-        
+        <img src="./assets/index/playa.jpg" alt="Playa">
+        <img src="./assets/index/acuatico.jpg" alt="Actividades Acuaticas">
+        <img src="./assets/index/montaña.jpg" alt="Escalar montañas">
+
       </div>
       <a href="./pages/categorias.html">Ver más</a>
-            
-          
+
+
     </section>
 
 
     <section class="destinos-container">
-      
+
       <div class="card" style="width: 18rem;">
-        <img src="./assets/index/roma.jpg" class="card-img-top" alt="...">
+        <img src="./assets/index/roma.jpg" class="card-img-top" alt="Roma, Italia">
         <div class="card-body">
           <h3>Roma, Italia</h3>
-          <p class="card-text"> Conocida por su impresionante patrimonio arquitectónico, arte renombrado y su papel central en el desarrollo de la civilización occidental.</p>
+          <p class="card-text"> Conocida por su impresionante patrimonio arquitectónico, arte renombrado y su papel
+            central en el desarrollo de la civilización occidental.</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="./assets/index/tokio.jpg" class="card-img-top" alt="...">
+        <img src="./assets/index/tokio.jpg" class="card-img-top" alt="Tokio, Japón">
         <div class="card-body">
           <h3>Tokio, Japón</h3>
-          <p class="card-text"> Metrópolis dinámica y fascinante que fusiona la tradición con la modernidad de una manera única.</p>
+          <p class="card-text"> Metrópolis dinámica y fascinante que fusiona la tradición con la modernidad de una
+            manera única.</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="./assets/index/paris.jpg" class="card-img-top" alt="...">
+        <img src="./assets/index/paris.jpg" class="card-img-top" alt="París, Francia">
         <div class="card-body">
           <h3>París, Francia</h3>
-          <p class="card-text"> Ciudad icónica conocida por su rica historia, su arquitectura impresionante y su cultura vibrante.</p>
+          <p class="card-text"> Ciudad icónica conocida por su rica historia, su arquitectura impresionante y su cultura
+            vibrante.</p>
           <a href="./pages/categorias.html">Ver más</a>
         </div>
-        
+
       </div>
-      
+
     </section>
 
     <section class="content">
@@ -129,32 +136,32 @@
       <article class="contact-wrapper animated bounceInUp">
         <div class="contact-form">
           <h3>Datos Personales</h3>
-          <form action="">
-            <p>
-              <label>Nombre Completo</label>
-              <input type="text" name="fullname">
-            </p>
-            <p>
-              <label>Correo Electrónico</label>
-              <input type="email" name="email">
-            </p>
-            <p>
-              <label>Número Telefónico</label>
-              <input type="tel" name="phone">
-            </p>
-            <p>
-              <label>Edad</label>
-              <input type="text" name="age">
-            </p>
-            <p class="block">
-              <label>Mensaje</label>
-              <textarea name="message" rows="3"></textarea>
-            </p>
-            <p class="block">
-              <button>
-                enviar
+          <form action="#">
+            <div class="datos">
+              <label for="fullname">Nombre Completo</label>
+              <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="datos">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="datos">
+              <label for="phone">Número Telefónico</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="datos">
+              <label for="age">Edad</label>
+              <input type="text" id="age" name="age">
+            </div>
+            <div class="datos">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="3"></textarea>
+            </div>
+            <div class="block">
+              <button type="submit">
+                Enviar
               </button>
-            </p>
+            </div>
           </form>
         </div>
         <div class="contact-info">
